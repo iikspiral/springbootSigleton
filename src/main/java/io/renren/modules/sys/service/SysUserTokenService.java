@@ -7,8 +7,8 @@ import io.renren.modules.sys.entity.SysUserTokenEntity;
 /**
  * 用户Token
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-03-23 15:22:07
  */
 public interface SysUserTokenService extends IService<SysUserTokenEntity> {

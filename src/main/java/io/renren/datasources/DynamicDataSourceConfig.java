@@ -12,8 +12,8 @@ import java.util.Map;
 
 /**
  * 配置多数据源
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017/8/19 0:41
  */
 @Configuration

@@ -23,7 +23,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * mybatis-plus配置
  *
- * @author Mark sunlightcs@gmail.com
+ * @author Mark iik.s.spiral@hotmail.com
  * @since 2.0.0 2018-02-05
  */
 @Configuration

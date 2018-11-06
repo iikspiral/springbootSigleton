@@ -19,8 +19,8 @@ import java.util.Date;
 
 /**
  * 注册
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-03-26 17:27
  */
 @RestController

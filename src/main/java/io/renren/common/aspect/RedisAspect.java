@@ -12,8 +12,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Redis切面处理类
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-07-17 23:30
  */
 @Aspect

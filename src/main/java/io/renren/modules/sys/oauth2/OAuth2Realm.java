@@ -16,8 +16,8 @@ import java.util.Set;
 /**
  * 认证
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-05-20 14:00
  */
 @Component

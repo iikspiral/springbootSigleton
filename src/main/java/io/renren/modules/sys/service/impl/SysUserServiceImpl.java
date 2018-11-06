@@ -26,8 +26,8 @@ import java.util.*;
 /**
  * 系统用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2016年9月18日 上午9:46:09
  */
 @Service("sysUserService")
@@ -39,7 +39,7 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserDao, SysUserEntity> i
 
 	@Override
 	public PageUtils queryPage(Map<String, Object> params) {
-		String username = (String)params.get("username");
+		String username = (String)params.get("userName");
 		Long createUserId = (Long)params.get("createUserId");
 
 		Page<SysUserEntity> page = this.selectPage(
@@ -130,8 +130,8 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserDao, SysUserEntity> i
 		List<Long> roleIdList = sysRoleService.queryRoleIdList(user.getCreateUserId());
 
 		//判断是否越权
-		if(!roleIdList.containsAll(user.getRoleIdList())){
+		/*if(!roleIdList.containsAll(user.getRoleIdList())){
 			throw new RRException("新增用户所选角色，不是本人创建");
-		}
+		}*/
 	}
 }

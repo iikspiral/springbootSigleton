@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * 用户与角色对应关系
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2016年9月18日 上午9:34:46
  */
 @Mapper

@@ -24,8 +24,8 @@ import java.util.Map;
 /**
  * 系统用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2016年10月31日 上午10:40:10
  */
 @RestController
@@ -41,11 +41,16 @@ public class SysUserController extends AbstractController {
 	 * 所有用户列表
 	 */
 	@GetMapping("/list")
-	@RequiresPermissions("sys:user:list")
+//	@RequiresPermissions("sys:user:list")
 	public R list(@RequestParam Map<String, Object> params){
+		//查询到实体
+		SysUserEntity sysUserEntity = sysUserService.selectById(getUserId());
+		if (!"1".equals(getUserId().toString().trim())) {
+            params.put("userName", sysUserEntity.getUsername());
+        }
 		//只有超级管理员，才能查看所有管理员列表
 		if(getUserId() != Constant.SUPER_ADMIN){
-			params.put("createUserId", getUserId());
+			params.put("user_id", getUserId());
 		}
 		PageUtils page = sysUserService.queryPage(params);
 

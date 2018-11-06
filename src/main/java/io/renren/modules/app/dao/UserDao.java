@@ -23,8 +23,8 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 用户
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-03-23 15:22:06
  */
 @Mapper

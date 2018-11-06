@@ -19,7 +19,7 @@ package io.renren.modules.sys.form;
 /**
  * 登录表单
  *
- * @author Mark sunlightcs@gmail.com
+ * @author Mark iik.s.spiral@hotmail.com
  * @since 2.0.0 2018-01-25
  */
 public class SysLoginForm {
@@ -27,6 +27,18 @@ public class SysLoginForm {
     private String password;
     private String captcha;
     private String uuid;
+    private String idcard;
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    private String token;
+
 
     public String getUsername() {
         return username;
@@ -58,5 +70,13 @@ public class SysLoginForm {
 
     public void setUuid(String uuid) {
         this.uuid = uuid;
+    }
+
+    public String getIdcard() {
+        return idcard;
+    }
+
+    public void setIdcard(String idcard) {
+        this.idcard = idcard;
     }
 }

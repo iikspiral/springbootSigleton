@@ -2,8 +2,8 @@ package io.renren.common.utils;
 
 /**
  * 系统参数相关Key
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-03-26 10:33
  */
 public class ConfigConstant {

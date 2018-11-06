@@ -23,7 +23,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 定时任务日志
  *
- * @author Mark sunlightcs@gmail.com
+ * @author Mark iik.s.spiral@hotmail.com
  * @since 1.2.0 2016-11-28
  */
 @Mapper

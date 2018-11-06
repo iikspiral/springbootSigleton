@@ -8,8 +8,8 @@ import java.util.Map;
 /**
  * 返回数据
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2016年10月27日 下午9:59:27
  */
 public class R extends HashMap<String, Object> {
@@ -51,6 +51,7 @@ public class R extends HashMap<String, Object> {
 		return new R();
 	}
 
+	@Override
 	public R put(String key, Object value) {
 		super.put(key, value);
 		return this;

@@ -23,18 +23,22 @@ import org.hibernate.validator.constraints.NotBlank;
 /**
  * 登录表单
  *
- * @author Mark sunlightcs@gmail.com
+ * @author Mark iik.s.spiral@hotmail.com
  * @since 3.1.0 2018-01-25
  */
 @ApiModel(value = "登录表单")
 public class LoginForm {
     @ApiModelProperty(value = "手机号")
-    @NotBlank(message="手机号不能为空")
+    @NotBlank(message = "手机号不能为空")
     private String mobile;
 
     @ApiModelProperty(value = "密码")
-    @NotBlank(message="密码不能为空")
+    @NotBlank(message = "密码不能为空")
     private String password;
+
+    @ApiModelProperty(value = "用户id")
+    @NotBlank(message = "用户id不能为空")
+    private String userId;
 
     public String getMobile() {
         return mobile;
@@ -50,5 +54,13 @@ public class LoginForm {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 }

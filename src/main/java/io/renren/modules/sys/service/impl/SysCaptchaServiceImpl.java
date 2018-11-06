@@ -34,7 +34,7 @@ import java.util.Date;
 /**
  * 验证码
  *
- * @author Mark sunlightcs@gmail.com
+ * @author Mark iik.s.spiral@hotmail.com
  * @since 2.0.0 2018-02-10
  */
 @Service("sysCaptchaService")

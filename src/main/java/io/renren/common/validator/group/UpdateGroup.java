@@ -2,8 +2,8 @@ package io.renren.common.validator.group;
 
 /**
  * 更新数据 Group
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-03-15 21:21
  */
 

@@ -20,8 +20,8 @@ import java.util.Map;
 /**
  * APP登录授权
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-03-23 15:31
  */
 @RestController

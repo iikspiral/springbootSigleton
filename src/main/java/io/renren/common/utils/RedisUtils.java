@@ -10,8 +10,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * Redis工具类
  *
- * @author chenshun
- * @email sunlightcs@gmail.com
+ * @author Yophy.W
+ * @email iik.s.spiral@hotmail.com
  * @date 2017-07-17 21:12
  */
 @Component

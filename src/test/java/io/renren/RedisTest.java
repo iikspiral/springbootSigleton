@@ -21,7 +21,7 @@ public class RedisTest {
 		user.setEmail("qqq@qq.com");
 		redisUtils.set("user", user);
 
-		System.out.println(ToStringBuilder.reflectionToString(redisUtils.get("user", SysUserEntity.class)));
+		System.out.println("测试redis取值===>"+ToStringBuilder.reflectionToString(redisUtils.get("user", SysUserEntity.class)));
 	}
 
 }
